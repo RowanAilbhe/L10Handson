@@ -49,10 +49,13 @@ header {
     color: rgb(240, 161, 236);
     height: 150px;
     font-family: 'Fjalla One', sans-serif;
+    font-size: 36px;
 }
 
 .images {
     display: flex;
+    height: 250px;
+    width: 250px;
     justify-content: center;
     margin-top: 25px;
     margin-bottom: 60px;
@@ -84,6 +87,6 @@ header {
 }
 
 body {
-    background-color: #CACFD2;
-
+ /*   background-color: #cfaad6;*/
+    background-image: linear-gradient(90deg, rgb(235, 62, 212), rgb(219, 36, 219), rgb(219, 114, 202));
 }
