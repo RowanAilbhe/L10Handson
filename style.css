@@ -1,0 +1,89 @@
+.fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-github {
+    background: #17202A;
+    color: #ECF0F1;
+}
+
+.hovered-icon {
+    opacity: 0.7;
+    font-size: 60px;
+    width: 60px;
+    padding: 5px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #790b8f;
+    color: rgb(240, 161, 236);
+    height: 150px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #790b8f;
+    color: rgb(240, 161, 236);
+    text-align: center;
+ }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.gitcontainer {
+    margin-bottom: 50%;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #CACFD2;
+
+}
